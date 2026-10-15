@@ -1,7 +1,7 @@
 --[[
     ╔══════════════════════════════════════════════════════════╗
     ║   ExpoFPS  v6  •  Solara / UNC Executor                  ║
-    ║   Head lock • Wallcheck • ESP • Collapsible               ║
+    ║   Head lock • Wallcheck • ESP • Collapsible              ║
     ╚══════════════════════════════════════════════════════════╝
 ]]
 
