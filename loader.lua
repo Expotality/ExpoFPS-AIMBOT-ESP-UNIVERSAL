@@ -1,7 +1,7 @@
 --[[
     ╔══════════════════════════════════════════════════════════╗
     ║   ExpoFPS  v6  •  Solara / UNC Executor                  ║
-    ║   Head lock • Wallcheck • ESP • Collapsible              ║
+    ║   Head lock • Wallcheck • ESP • Collapsible               ║
     ╚══════════════════════════════════════════════════════════╝
 ]]
 
@@ -23,19 +23,19 @@ local EXCLUDE   = Enum.RaycastFilterType.Exclude or Enum.RaycastFilterType.Black
 
 --===================== CONFIG =======================--
 local Config = {
-	Enabled      = false,
+	Enabled      = true,
 	WallCheck    = true,
-	TeamCheck    = true,
+	TeamCheck    = false,
 	MouseAim     = HAS_MOUSE,
 	PauseOverUI  = true,
 	ShowFOV      = true,
 	HoldMode     = false,
-	ESP          = true,
+	ESP          = false,
 	ESPAll       = false,
-	Smoothness   = 0.85,
-	FOV          = 10,
-	Range        = 2000,
-	Key          = Enum.KeyCode.z,
+	Smoothness   = 0.35,
+	FOV          = 45,
+	Range        = 1000,
+	Key          = Enum.KeyCode.E,
 	MouseKey     = nil,
 	CollapseKey  = Enum.KeyCode.RightShift,
 }
@@ -92,8 +92,8 @@ local gui = create("ScreenGui", {
 --===================== MAIN FRAME ===================--
 local main = create("Frame", {
 	Name = "Main",
-	Size = UDim2.fromOffset(330, 560),
-	Position = UDim2.new(0.5, -165, 0.5, -280),
+	Size = UDim2.fromOffset(306, 560),
+	Position = UDim2.new(0, 24, 0.5, -280),
 	BackgroundColor3 = BG,
 	BorderSizePixel = 0,
 }, gui)
