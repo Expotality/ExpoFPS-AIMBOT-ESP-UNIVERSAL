@@ -92,8 +92,8 @@ local gui = create("ScreenGui", {
 --===================== MAIN FRAME ===================--
 local main = create("Frame", {
 	Name = "Main",
-	Size = UDim2.fromOffset(306, 560),
-	Position = UDim2.new(0, 24, 0.5, -280),
+	Size = UDim2.fromOffset(330, 560),
+	Position = UDim2.new(0.5, -165, 0.5, -280),
 	BackgroundColor3 = BG,
 	BorderSizePixel = 0,
 }, gui)
