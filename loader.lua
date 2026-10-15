@@ -23,19 +23,19 @@ local EXCLUDE   = Enum.RaycastFilterType.Exclude or Enum.RaycastFilterType.Black
 
 --===================== CONFIG =======================--
 local Config = {
-	Enabled      = true,
+	Enabled      = false,
 	WallCheck    = true,
-	TeamCheck    = false,
+	TeamCheck    = true,
 	MouseAim     = HAS_MOUSE,
 	PauseOverUI  = true,
 	ShowFOV      = true,
 	HoldMode     = false,
-	ESP          = false,
+	ESP          = true,
 	ESPAll       = false,
-	Smoothness   = 0.35,
-	FOV          = 45,
-	Range        = 1000,
-	Key          = Enum.KeyCode.E,
+	Smoothness   = 0.85,
+	FOV          = 10,
+	Range        = 2000,
+	Key          = Enum.KeyCode.z,
 	MouseKey     = nil,
 	CollapseKey  = Enum.KeyCode.RightShift,
 }
